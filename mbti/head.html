@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>지황 MBTI 캐릭터</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>지황 MBTI 캐릭터 테스트</h1>
+    <div id="question-box">
+      <p id="question">문항이 여기에 표시됩니다.</p>
+      <button onclick="answer('yes')">예</button>
+      <button onclick="answer('no')">아니오</button>
+    </div>
+    <div id="result-box" class="hidden">
+      <h2>당신의 MBTI는?</h2>
+      <h3>지황의 효능</h3>
+      <p id="jiwhang-effect">
+    지황은 피로 회복, 면역력 증진, 혈액순환 개선, 노화 방지 등에 도움을 주는 한방 약재로 알려져 있어요. 더 궁금한게 있으면 정읍시 옹동면 매정리로 놀러오세요^_^bb
+  </p>
+
+  <button onclick="restart()">다시하기</button>
+      <p id="mbti-type"></p>
+      <img id="mbti-image" src="" alt="지황 캐릭터"/>
+      <p id="mbti-desc"></p>
+      <button onclick="restart()">다시하기</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
